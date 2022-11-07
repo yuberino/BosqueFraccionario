@@ -1,0 +1,2995 @@
+fileFormatVersion: 2
+guid: 1fc8071a25ac4be4fbac815ff2c6694b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_0"
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 93
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76853fd7d8ba3f240b855301ebe1c3f2
+      internalID: 92827144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_1"
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 93
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f959596c19f8f64dbd436a6fb1f3389
+      internalID: 2026407541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_2"
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 93
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61a001ca5fe32554eabb1d8050fd56c2
+      internalID: 1276293960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_3"
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 93
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d458a488ece5cd14ba88bb9d8cd4d18c
+      internalID: -1676404264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_4"
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 93
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25f01b3465031e54c9cda1abc864a8ce
+      internalID: -22125028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_5"
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 93
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d4080a837fd2342b4a905de9e5588d
+      internalID: 935309289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_6"
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 93
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 423e4197c9a13cb4296b933b78b01054
+      internalID: 1476346229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_7"
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 93
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7442c529ea6a190429b06f5912086140
+      internalID: -1653427866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_8"
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 93
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72883ee5259c60f4182050bdfea03238
+      internalID: -1524864021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_9"
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 93
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbbe5653155f45c4d8b9e864e5a91765
+      internalID: -1532113345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_10"
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 93
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e49cd1640ebe9ed4e9ca0616d31f2417
+      internalID: -2147269699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_11"
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 93
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 009eed9cdc449674ba99fdff42af92cb
+      internalID: 346748798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_12"
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 93
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f40201c97dacd54ba6094954cc4296d
+      internalID: 1453357207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_13"
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 93
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5d89926b5cb76f44ae7e8bd9d7038f8
+      internalID: 1214494906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_14"
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 93
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3bcd27ad193a6a4eb5c735c327f1ca1
+      internalID: 538728922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_15"
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 93
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7e7096dee3409044901c8bc5df0ac38
+      internalID: -991301370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_16"
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 93
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 771dbe51f51ada3468f08c474c932962
+      internalID: -1549822818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_17"
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 93
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e606ec72ecb03f4da3010e6731469d1
+      internalID: 868765684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_18"
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 93
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74a26aa67553b6c4cb768bc9c8e15fa6
+      internalID: 1407029100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_19"
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 93
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8217929f1a490f142b19b127a0ca54be
+      internalID: 875984625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_20"
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 116
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e01f093369639549b20505bf6ea9a5f
+      internalID: 571522152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_21"
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 93
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1059860b6507dc040ad560f6d3be2520
+      internalID: 1291377294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_22"
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 121
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b997d7063013b74ebd1ecd64358b49b
+      internalID: -662021355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_23"
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 116
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f186602b334ef1f4986a4a62aac6756d
+      internalID: 2108117567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_24"
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 93
+        width: 36
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0572c7eb681b8214faa08ce4e3990582
+      internalID: 747704003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_25"
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 121
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0982b516dec7a28469e82fe8202148b9
+      internalID: -557691455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_26"
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 93
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8e302ad8e5819c4e89e194618ae5ed1
+      internalID: 131901798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_27"
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 93
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 468cdfa0cffa08e4492bad89d3bf6f80
+      internalID: -997338991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_28"
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 47
+        width: 775
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be7cbfbcfc070834c8f56b8f0a7e206f
+      internalID: -792669924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_29"
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 50
+        width: 778
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa2371eb0c6e5204da0c4e48e7fa84f0
+      internalID: 429008924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_30"
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 50
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1e243910a631ed448983fce32c7317e
+      internalID: 1456271681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_31"
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 50
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47e05e65d600303458bf059548f22ff5
+      internalID: 1910092212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_32"
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 50
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ff60f4813891164b87fee651f48cf36
+      internalID: -464359234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_33"
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 50
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fab9542a97115a24cba8630447d0e1c2
+      internalID: 1185825634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_34"
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 50
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af33d8121b47c024a96a65cdc8e73eb9
+      internalID: 270832661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_35"
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 50
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5252db606e6f764692fbd265789a6aa
+      internalID: 1215535415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_36"
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 50
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e49d4f89dd1ad44419a825526c155477
+      internalID: 315434464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_37"
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 50
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9531c3a734eb6714aaa5f8638f34b916
+      internalID: -993264852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_38"
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 50
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f8adcef3f2efeb4695031a9c8ee296f
+      internalID: -1457813702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_39"
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 50
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba0192248568272409d54f1b5cc39cac
+      internalID: -1730102502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_40"
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 60
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 372e6c26c8c883f4faf922d8a6caf806
+      internalID: -709236198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_41"
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 50
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b2443bbfdf2cb94d8bc6d9c6bd27ba3
+      internalID: -597448362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_42"
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 56
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29ba8bfe2d7ed1f48a6daeb759e9f463
+      internalID: 2107130789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_43"
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 50
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f2a442ef4548e749bcfc7fe5e58f5e1
+      internalID: -1774160116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_44"
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 50
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c21c8db599a0d849a020bce59140eba
+      internalID: 822718854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_45"
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 50
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5ed9700a04224447986446312b33d7b
+      internalID: 1060555631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_46"
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 50
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4edca048dc0711419f9477356f96cf0
+      internalID: -1608235693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_47"
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 50
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ef4e356054b98541a82ccc8e0caeafd
+      internalID: 1987009272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_48"
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 50
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bec60849b61462b4297e0560e9e0853b
+      internalID: -1931754512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_49"
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 50
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1017c146c5b43a448be59b44fc622c70
+      internalID: 1023035438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_50"
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 50
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e332f1a040b4744d92fb72ad37aaf21
+      internalID: 1805492871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_51"
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 50
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caa50902f962d7240b835b8cd92805d7
+      internalID: -1532473962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_52"
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 52
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a3bfe3145b80184d84da0e15f493118
+      internalID: -1842522937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_53"
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 3
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19078edd28a080c44a33643910146af7
+      internalID: -1671717878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_54"
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 3
+        width: 25
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5020d9414d84c034c8e81db0a8159e1b
+      internalID: -519259533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_55"
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 3
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e420c66b78d11c84b882e23711114b11
+      internalID: -1097155281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_56"
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 3
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66777f2511c6bbf43bf1023adc9445fb
+      internalID: -344747827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_57"
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 3
+        width: 28
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c9fde3b65a714342ac32dec79eb2a4c
+      internalID: -500891196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_58"
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 3
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 223c1e8d719dbbf40a89f94e3860ad88
+      internalID: -1558623786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_59"
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 2
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2af6f404c47f80f4c88d304b959b2f7b
+      internalID: 2045140627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_60"
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 2
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92f26488ddbe9f749a96c3217e1c3d76
+      internalID: 978496362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_61"
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 2
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdf1bda1e1bf27c4aa11835e53a6f75e
+      internalID: -1545307954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_62"
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 2
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a51cbfa1ec7d114bbc9f184ccb87665
+      internalID: -2000684771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_63"
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 2
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee040f38a97744344b84689d86cad5d9
+      internalID: 2068630496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_64"
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 2
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d74be7e6ca86d04d8fa5330a96b0fb5
+      internalID: -1652919698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_65"
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 2
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a61ee77405736947b6ec963991af2c1
+      internalID: 169765986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_66"
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 29
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3285dddd10b4f5d4087ecf3f95c4fada
+      internalID: 765082607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_67"
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 29
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f499525394b5224db4b414eee7d01ce
+      internalID: -1856254117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_68"
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 29
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91b25acf5ac909a44917a8c92156c84f
+      internalID: 372535030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_69"
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 29
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f43b847902c580c47b00bf21621647bd
+      internalID: 2020749206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_70"
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 29
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fef04d572f532448a21e8a561272110
+      internalID: -1576378588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_71"
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 29
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8b5477c958a8e744abfb9427c16f17e
+      internalID: 916563523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_72"
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 29
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc455231559fd3549ab1bc5f0dab2f6c
+      internalID: 1854045147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_73"
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 29
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef0eb0018c4e3554b8251fdc38f68cf6
+      internalID: 1994882874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_74"
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 29
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63adf720ec4eff145800785e226755b7
+      internalID: -1368608237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_75"
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 29
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c876c22e9c7fe114fbfd18f7ae270469
+      internalID: -649570820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_76"
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 29
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67c21e2a0a26e6c4e8d584ed424bcf96
+      internalID: 782847884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_77"
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 29
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94eadd44a5210a54c8aa679ba4707554
+      internalID: -791380695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_78"
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 27
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d6eb4fae06d95447a5f9d2028369fc3
+      internalID: 453262028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_79"
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 29
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2877cd2b572b9a4e9f97c8482adb1c5
+      internalID: -1717839017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_80"
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 29
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 149a21695aad0be4cbd715a1fcd983e7
+      internalID: 799446699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_81"
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 29
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbc424ee04dc3bf46a0e3d80eb25f76f
+      internalID: -1745542388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_82"
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 29
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a90c2bcdd1348c499fc686ec8a67540
+      internalID: -1672093885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_83"
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 28
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68a9b6c5b471b7a479b1634341f47c04
+      internalID: -1784563254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_84"
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 29
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0912790179562c3428c128ea3909831d
+      internalID: 277555030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_85"
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 29
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7791b5767a0773445942fa2a2ade7166
+      internalID: -1185950025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_86"
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 29
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e750698051373c545974803dacc00c99
+      internalID: -1840459248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_87"
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 29
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f023e3a72de91fb45b597c6c5e5bd9df
+      internalID: -1105896787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_88"
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 29
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c444d32c6358ce4fbac5350fdacf793
+      internalID: 137989586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_89"
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 29
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cb2a625ff15ae2499db184e82a9bf25
+      internalID: -243291638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_90"
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 29
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a38bc959d9465b243bddfe84dc7e58be
+      internalID: -518874979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_91"
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 29
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98f97b74a72072940ab59eb5b6a1eb5d
+      internalID: 941325676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_92"
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 27
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcea94c799f9e9f498f89f0443e61c60
+      internalID: -1472725973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_93"
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 29
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c79e3b7f70fc08458a8e209d4ccfdae
+      internalID: -2133862386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_94"
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 16
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe644041d70f6304b99da5411539184a
+      internalID: 767844584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_95"
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 14
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c683778441239e429e50e621b2378eb
+      internalID: -129127329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_96"
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 14
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5f5a986b4157cb4d85bd56a9f582e61
+      internalID: 989124653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_97"
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 16
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20ace7d1aa842f24dbe82d2048a3aec4
+      internalID: -1886226195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_98"
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 16
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 272649928c7748a439f8f9b1308fb42b
+      internalID: 744952694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_99"
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 16
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00e56087fca9a7e4c9b80837ae91537b
+      internalID: 872037753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_100"
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 14
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6578125ae17e92447b2679c3c880ec40
+      internalID: -827120761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_101"
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 4
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 157f1aa73b8a29943bcd9ab247e03ff3
+      internalID: 523365461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_102"
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 16
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efca58ea5a5018344837c4ee8c1b92d1
+      internalID: -1291195313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_103"
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 14
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33d0a30eec6fe6a45ba24383037add5d
+      internalID: 682991936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_104"
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 16
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2910555f9a02134b96ff7b1da1f669b
+      internalID: 841985537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_105"
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 14
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e1f8964f6278544e8ff72a9dbca955a
+      internalID: 451090161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_106"
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 16
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7e5c770493cfaf40a389891829d5478
+      internalID: 750823069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_107"
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 16
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15038813513387543b4cc67d6767b4c8
+      internalID: 1873530729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_108"
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 16
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43f36d823280bc2458a7ced110e4f4ca
+      internalID: -1836882873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_109"
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 16
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc34c174e054ffd48b4b36ddcf173148
+      internalID: 2141321179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_110"
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 16
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 708a0c7a251079d4b94b163d2ac2f96d
+      internalID: 15157428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_111"
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 16
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 792bb15723e1499498acced96674f484
+      internalID: 1344276666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_112"
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 16
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57b3322d591f1c044ba01abc2e8910e2
+      internalID: -2012126910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_113"
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 16
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8f67970aea2dce41a04b27791f984b9
+      internalID: -1919060020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_114"
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 16
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f5e412483ef40444ba3ff466f4eb7b7
+      internalID: 1611738783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_115"
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 16
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8898031ca3bff0e44bc4e71e3fd9babb
+      internalID: 1728068213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_116"
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 16
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9c83b1f04dd49d46a66d216df89dcba
+      internalID: 376671477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_117"
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 16
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cb1feb53ea17ab4ebdbb6502285f105
+      internalID: 170648918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_118"
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 16
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d73c09593d27b1a48a48179e65fb7566
+      internalID: -1374151308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_119"
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 16
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0dcc97abd9d0f141a2939dc9f91e2ba
+      internalID: 228101003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_120"
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 16
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e62589e44d5d82046a5599d73172321a
+      internalID: 663278559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_121"
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 14
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4405f496ba49fe74c819b444e83b9972
+      internalID: 945314269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_122"
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 2
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 997da30186fe02740a8a18176ca4b016
+      internalID: -1006784493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_123"
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 4
+        width: 28
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 463dfec7d16d51e418ef10371bfb2037
+      internalID: 1229085013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_124"
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 4
+        width: 20
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45bcf55af43734e4296c21f4bffd0a3b
+      internalID: -755448958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_125"
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 4
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b9b73cb3bb5c8d408c71e551611079b
+      internalID: 1266353843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_126"
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 2
+        width: 22
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6128b0dc0df19f4aa3d551db337b74d
+      internalID: 1452357076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_127"
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 4
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc86057eab5451e48aa283e85d2af864
+      internalID: 1846685894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_128"
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 4
+        width: 17
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5df88ab2744f394ab81e7724bbd99c8
+      internalID: -1003683162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "le\xF1adorSprites_129"
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 4
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99618f366c3a8b04587e69e2757da149
+      internalID: -2062497683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      "le\xF1adorSprites_117": 170648918
+      "le\xF1adorSprites_85": -1185950025
+      "le\xF1adorSprites_73": 1994882874
+      "le\xF1adorSprites_24": 747704003
+      "le\xF1adorSprites_25": -557691455
+      "le\xF1adorSprites_53": -1671717878
+      "le\xF1adorSprites_42": 2107130789
+      "le\xF1adorSprites_81": -1745542388
+      "le\xF1adorSprites_120": 663278559
+      "le\xF1adorSprites_126": 1452357076
+      "le\xF1adorSprites_94": 767844584
+      "le\xF1adorSprites_57": -500891196
+      "le\xF1adorSprites_121": 945314269
+      "le\xF1adorSprites_106": 750823069
+      "le\xF1adorSprites_92": -1472725973
+      "le\xF1adorSprites_51": -1532473962
+      "le\xF1adorSprites_103": 682991936
+      "le\xF1adorSprites_91": 941325676
+      "le\xF1adorSprites_34": 270832661
+      "le\xF1adorSprites_84": 277555030
+      "le\xF1adorSprites_93": -2133862386
+      "le\xF1adorSprites_59": 2045140627
+      "le\xF1adorSprites_96": 989124653
+      "le\xF1adorSprites_90": -518874979
+      "le\xF1adorSprites_36": 315434464
+      "le\xF1adorSprites_116": 376671477
+      "le\xF1adorSprites_102": -1291195313
+      "le\xF1adorSprites_56": -344747827
+      "le\xF1adorSprites_38": -1457813702
+      "le\xF1adorSprites_4": -22125028
+      "le\xF1adorSprites_124": -755448958
+      "le\xF1adorSprites_71": 916563523
+      "le\xF1adorSprites_111": 1344276666
+      "le\xF1adorSprites_112": -2012126910
+      "le\xF1adorSprites_54": -519259533
+      "le\xF1adorSprites_18": 1407029100
+      "le\xF1adorSprites_66": 765082607
+      "le\xF1adorSprites_26": 131901798
+      "le\xF1adorSprites_52": -1842522937
+      "le\xF1adorSprites_122": -1006784493
+      "le\xF1adorSprites_39": -1730102502
+      "le\xF1adorSprites_2": 1276293960
+      "le\xF1adorSprites_11": 346748798
+      "le\xF1adorSprites_100": -827120761
+      "le\xF1adorSprites_87": -1105896787
+      "le\xF1adorSprites_23": 2108117567
+      "le\xF1adorSprites_95": -129127329
+      "le\xF1adorSprites_127": 1846685894
+      "le\xF1adorSprites_3": -1676404264
+      "le\xF1adorSprites_22": -662021355
+      "le\xF1adorSprites_86": -1840459248
+      "le\xF1adorSprites_60": 978496362
+      "le\xF1adorSprites_45": 1060555631
+      "le\xF1adorSprites_109": 2141321179
+      "le\xF1adorSprites_105": 451090161
+      "le\xF1adorSprites_129": -2062497683
+      "le\xF1adorSprites_21": 1291377294
+      "le\xF1adorSprites_75": -649570820
+      "le\xF1adorSprites_48": -1931754512
+      "le\xF1adorSprites_19": 875984625
+      "le\xF1adorSprites_15": -991301370
+      "le\xF1adorSprites_17": 868765684
+      "le\xF1adorSprites_88": 137989586
+      "le\xF1adorSprites_35": 1215535415
+      "le\xF1adorSprites_31": 1910092212
+      "le\xF1adorSprites_44": 822718854
+      "le\xF1adorSprites_128": -1003683162
+      "le\xF1adorSprites_72": 1854045147
+      "le\xF1adorSprites_33": 1185825634
+      "le\xF1adorSprites_27": -997338991
+      "le\xF1adorSprites_28": -792669924
+      "le\xF1adorSprites_89": -243291638
+      "le\xF1adorSprites_67": -1856254117
+      "le\xF1adorSprites_99": 872037753
+      "le\xF1adorSprites_123": 1229085013
+      "le\xF1adorSprites_10": -2147269699
+      "le\xF1adorSprites_64": -1652919698
+      "le\xF1adorSprites_108": -1836882873
+      "le\xF1adorSprites_107": 1873530729
+      "le\xF1adorSprites_46": -1608235693
+      "le\xF1adorSprites_55": -1097155281
+      "le\xF1adorSprites_69": 2020749206
+      "le\xF1adorSprites_82": -1672093885
+      "le\xF1adorSprites_6": 1476346229
+      "le\xF1adorSprites_101": 523365461
+      "le\xF1adorSprites_62": -2000684771
+      "le\xF1adorSprites_98": 744952694
+      "le\xF1adorSprites_77": -791380695
+      "le\xF1adorSprites_104": 841985537
+      "le\xF1adorSprites_16": -1549822818
+      "le\xF1adorSprites_37": -993264852
+      "le\xF1adorSprites_79": -1717839017
+      "le\xF1adorSprites_80": 799446699
+      "le\xF1adorSprites_115": 1728068213
+      "le\xF1adorSprites_49": 1023035438
+      "le\xF1adorSprites_118": -1374151308
+      "le\xF1adorSprites_29": 429008924
+      "le\xF1adorSprites_50": 1805492871
+      "le\xF1adorSprites_65": 169765986
+      "le\xF1adorSprites_20": 571522152
+      "le\xF1adorSprites_30": 1456271681
+      "le\xF1adorSprites_12": 1453357207
+      "le\xF1adorSprites_70": -1576378588
+      "le\xF1adorSprites_78": 453262028
+      "le\xF1adorSprites_119": 228101003
+      "le\xF1adorSprites_1": 2026407541
+      "le\xF1adorSprites_43": -1774160116
+      "le\xF1adorSprites_125": 1266353843
+      "le\xF1adorSprites_58": -1558623786
+      "le\xF1adorSprites_7": -1653427866
+      "le\xF1adorSprites_9": -1532113345
+      "le\xF1adorSprites_74": -1368608237
+      "le\xF1adorSprites_83": -1784563254
+      "le\xF1adorSprites_14": 538728922
+      "le\xF1adorSprites_13": 1214494906
+      "le\xF1adorSprites_32": -464359234
+      "le\xF1adorSprites_5": 935309289
+      "le\xF1adorSprites_61": -1545307954
+      "le\xF1adorSprites_47": 1987009272
+      "le\xF1adorSprites_41": -597448362
+      "le\xF1adorSprites_68": 372535030
+      "le\xF1adorSprites_110": 15157428
+      "le\xF1adorSprites_8": -1524864021
+      "le\xF1adorSprites_97": -1886226195
+      "le\xF1adorSprites_114": 1611738783
+      "le\xF1adorSprites_113": -1919060020
+      "le\xF1adorSprites_0": 92827144
+      "le\xF1adorSprites_40": -709236198
+      "le\xF1adorSprites_76": 782847884
+      "le\xF1adorSprites_63": 2068630496
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
