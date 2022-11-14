@@ -6,6 +6,9 @@ public class MovimentoLeñador : MonoBehaviour
 {
 
     public Rigidbody2D rbd;
+    private BoxCollider2D bc2d;
+
+    public LayerMask capaSuelo;
 
     private Animator anim;
 
@@ -14,20 +17,11 @@ public class MovimentoLeñador : MonoBehaviour
 
     [SerializeField] private float _vel;
 
-    bool siTocaElSuelo;
-
-    void OnCollisionEnter(Collision other)
- {
-
-     if(other.gameObject.CompareTag("Suelo"));
-         siTocaElSuelo = true;
- }
-
     void Start()
     {
-        siTocaElSuelo = true;
 
         rbd = GetComponent<Rigidbody2D>();
+        bc2d = GetComponent<BoxCollider2D>();
         anim = GetComponentInChildren<Animator>();
         spritePersonaje = GetComponentInChildren<SpriteRenderer>();
     }
@@ -36,12 +30,13 @@ public class MovimentoLeñador : MonoBehaviour
     void Update()
     {
         //Saltar
-    
-        if (Input.GetKeyDown(KeyCode.Space) && siTocaElSuelo == true)
+
+        if (Input.GetKeyDown(KeyCode.Space) && EstaEnSuelo())
         {
-            siTocaElSuelo = false;
-            rbd.AddForce(Vector2.up * fuerza, ForceMode2D.Impulse);
+            Saltar();
         }
+
+
 
         //Caminar
 
@@ -49,17 +44,31 @@ public class MovimentoLeñador : MonoBehaviour
         rbd.velocity = new Vector2(velocidadInput * _vel, rbd.velocity.y);
         anim.SetFloat("Camina", Mathf.Abs(velocidadInput));
 
-        if (velocidadInput < 0) {
+        if (velocidadInput < 0)
+        {
 
             spritePersonaje.flipX = true;
 
         }
 
-        else if (velocidadInput > 0) {
+        else if (velocidadInput > 0)
+        {
 
             spritePersonaje.flipX = false;
 
         }
 
+    }
+
+    public void Saltar()
+    {
+
+        rbd.AddForce(Vector2.up * fuerza, ForceMode2D.Impulse);
+    }
+
+    bool EstaEnSuelo()
+    {
+        RaycastHit2D raycastHit = Physics2D.BoxCast(bc2d.bounds.center, new Vector2(bc2d.bounds.size.x, bc2d.bounds.size.y), 0f, Vector2.down, 0.2f, capaSuelo);
+        return raycastHit.collider != null;
     }
 }
