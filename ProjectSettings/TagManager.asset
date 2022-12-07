@@ -5,6 +5,16 @@ TagManager:
   serializedVersion: 2
   tags:
   - Suelo
+  - Ayuda
+  - "Le\xF1ador"
+  - Plataforma
+  - TriggerNoSaltar
+  - TocaEnemigoOPincho
+  - SpawnearSiguienteFondo
+  - TriggerColocarOperacion
+  - Operacion
+  - PlataformaMovible
+  - Checkpoint
   layers:
   - Default
   - TransparentFX
