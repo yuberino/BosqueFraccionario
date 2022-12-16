@@ -12,9 +12,15 @@ TagManager:
   - TocaEnemigoOPincho
   - SpawnearSiguienteFondo
   - TriggerColocarOperacion
-  - Operacion
   - PlataformaMovible
   - Checkpoint
+  - Muelle
+  - FuerzaMuelle
+  - Operacion1
+  - Operacion2
+  - BanderaFinalPassarNivel2
+  - BanderaFinalPassarNivel3
+  - BanderaFinalPantallaFinal
   layers:
   - Default
   - TransparentFX

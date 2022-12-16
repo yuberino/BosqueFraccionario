@@ -20,15 +20,10 @@ public class MovimentoLeñador : MonoBehaviour
 
     public GameObject Leñador;
 
-    public GameObject _prefabFondo;
-
-    public double contadorSpawnFondo = 21.5;
-    public GameObject _triggerSpawnearFondo;
-
     public GameObject[] corazones;
     public int vida;
 
-    public float PosicionXResucitarLeñador = -7.5f;
+    public float PosicionXResucitarLeñador = -6.8f;
     public float PosicionYResucitarLeñador = 0.3f;
 
     void Start()
@@ -93,74 +88,83 @@ public class MovimentoLeñador : MonoBehaviour
     }
 
     private void OnCollisionEnter2D(Collision2D other)
-{
-    //Si el leñador colisiona con el suelo, podrá saltar.
-    if (other.gameObject.CompareTag("Suelo"))
     {
-        NoEstaEnSuelo = false;
+        //Si el leñador colisiona con el suelo, podrá saltar.
+        if (other.gameObject.CompareTag("Suelo"))
+        {
+            NoEstaEnSuelo = false;
 
-        rbd.velocity = new Vector2(rbd.velocity.x, 0);
+            rbd.velocity = new Vector2(rbd.velocity.x, 0);
+        }
+
+        //Si el leñador esta en una plataforma movible, el se movera con la plataforma
+        if (other.gameObject.CompareTag("PlataformaMovible"))
+        {
+            transform.parent = other.transform;
+        }
+
     }
-
-    //Si el leñador esta en una plataforma movible, el se movera con la plataforma
-    if (other.gameObject.CompareTag("PlataformaMovible"))
-    {
-        transform.parent = other.transform;
-    }
-
-}
 
     private void OnCollisionExit2D(Collision2D other)
-{
-    //Si el leñador NO esta en una plataforma movible, el se movera con la plataforma
-    if (other.gameObject.CompareTag("PlataformaMovible"))
     {
-        transform.parent = null;
+        //Si el leñador NO esta en una plataforma movible, el se movera con la plataforma
+        if (other.gameObject.CompareTag("PlataformaMovible"))
+        {
+            transform.parent = null;
+        }
+
     }
 
-}
-
-private void OnTriggerEnter2D(Collider2D col)
-{
-    //Si el leñador toca el trigger de las plataformas, saltará.
-    if (col.gameObject.CompareTag("Plataforma"))
+    private void OnTriggerEnter2D(Collider2D col)
     {
-        NoEstaEnSuelo = false;
+        //Si el leñador toca el trigger de las plataformas, saltará.
+        if (col.gameObject.CompareTag("Plataforma"))
+        {
+            NoEstaEnSuelo = false;
 
-        rbd.velocity = new Vector2(rbd.velocity.x, 0);
-        
-    } 
+            rbd.velocity = new Vector2(rbd.velocity.x, 0);
 
-    //Si leñador toca el trigger, no saltará
-    if (col.gameObject.CompareTag("TriggerNoSaltar"))
-    {
-        NoEstaEnSuelo = true;
+        }
+
+        //Si leñador toca el trigger, no saltará
+        if (col.gameObject.CompareTag("TriggerNoSaltar"))
+        {
+            NoEstaEnSuelo = true;
+        }
+
+        //Si leñador toca el trigger de algún pincho o enemigo, morirá y volvera al principio del nivel.
+        if (col.gameObject.CompareTag("TocaEnemigoOPincho"))
+        {
+            Leñador.transform.position = new Vector3(PosicionXResucitarLeñador, PosicionYResucitarLeñador, 0);
+            vida--;
+        }
+
+        if (col.gameObject.CompareTag("Muelle"))
+        {
+            rbd.AddForce(Vector2.up * 15, ForceMode2D.Impulse);
+
+            NoEstaEnSuelo = true;
+
+        }
+
+        if (col.gameObject.CompareTag("BanderaFinalPassarNivel2"))
+        {
+            SceneManager.LoadScene("EscenaJugarNivel2");
+
+        }
+
+        if (col.gameObject.CompareTag("BanderaFinalPassarNivel3"))
+        {
+            SceneManager.LoadScene("EscenaJugarNivel3");
+
+        }
+
+        if (col.gameObject.CompareTag("BanderaFinalPantallaFinal"))
+        {
+            SceneManager.LoadScene("EscenaPantallaFinal");
+
+        }
+
     }
-
-    //Si leñador toca el trigger de algún pincho o enemigo, morirá y volvera al principio del nivel.
-    if (col.gameObject.CompareTag("TocaEnemigoOPincho"))
-    {
-        Leñador.transform.position = new Vector3(PosicionXResucitarLeñador, PosicionYResucitarLeñador, 0);
-        vida--;
-    }
-
-    //Si el trigger de spawnear fondo no está inicializado, que vuelva a tenerlo.
-    if (_triggerSpawnearFondo == null)
-    {
-        _triggerSpawnearFondo = GameObject.FindGameObjectWithTag("SpawnearSiguienteFondo");
-    }
-
-    if (col.gameObject.CompareTag("SpawnearSiguienteFondo"))
-    {
-        GameObject Fondo = Instantiate(_prefabFondo);
-        Fondo.transform.position = new Vector3((((float)contadorSpawnFondo)), 0, 0);
-        contadorSpawnFondo = contadorSpawnFondo + 21.5;
-
-        //Una vez spawneado el trigger se destruirá para que no se repita.
-        Destroy(_triggerSpawnearFondo);
-        
-    }
-    
-}
 
 }

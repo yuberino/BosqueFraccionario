@@ -18,6 +18,11 @@ public class gameManagerScript : MonoBehaviour
         Time.timeScale = 1;
     }
 
+    public void BotonReiniciar()
+    {
+        Time.timeScale = 1;
+    }
+
     private void Update()
     {
         if (Input.GetKey(KeyCode.Escape))
